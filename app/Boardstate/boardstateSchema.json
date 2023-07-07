@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "default": {},
+    "title": "BoardState",
+    "properties":{
+        "board": {
+            "type": "object",
+            "properties":{
+                "type": {
+                    "type":"string"
+                },
+                "tilesInOrder": {
+                    "type": "array"
+                }
+            }
+        }
+    },
+    "required": []
+}
