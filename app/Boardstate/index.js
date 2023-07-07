@@ -1,6 +1,10 @@
 class Boardstate {
     constructor (data){
-        this.data = data;
+        this._loadData(data);
+    }
+
+    _loadData(data){
+
     }
 
     getTurnPhase (){
